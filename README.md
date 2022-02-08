@@ -19,7 +19,7 @@ gulp serve --nobrowser
 
 Run in PS on the host where you run browser:
 
-````PowerShell
+```PowerShell
 $tcpClient = New-Object -TypeName System.Net.Sockets.TcpClient;
 $tcpClient.Connect("localhost", 4321);
 $tcpStream = $tcpClient.GetStream();
