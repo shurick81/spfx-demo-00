@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "Personal Assistance",
+    "environment": "spo",
+    "skipFeatureDeployment": false,
+    "isDomainIsolated": false,
+    "framework": "none",
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.13.1",
+    "libraryName": "personal-assistance",
+    "libraryId": "63aa338a-f44f-47f4-aac3-b38a72e48415",
+    "packageManager": "npm",
+    "componentType": "adaptiveCardExtension",
+    "aceTemplateType": "Basic"
+  }
+}

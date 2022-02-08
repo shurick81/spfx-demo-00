@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "secret-generator-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/secretGenerator/SecretGeneratorWebPart.js",
+          "manifest": "./src/webparts/secretGenerator/SecretGeneratorWebPart.manifest.json"
+        }
+      ]
+    },
+    "secret-generator-adaptive-card-extension": {
+      "components": [
+        {
+          "entrypoint": "./lib/adaptiveCardExtensions/secretGenerator/SecretGeneratorAdaptiveCardExtension.js",
+          "manifest": "./src/adaptiveCardExtensions/secretGenerator/SecretGeneratorAdaptiveCardExtension.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SecretGeneratorWebPartStrings": "lib/webparts/secretGenerator/loc/{locale}.js",
+    "SecretGeneratorAdaptiveCardExtensionStrings": "lib/adaptiveCardExtensions/secretGenerator/loc/{locale}.js"
+  }
+}
