@@ -6,10 +6,6 @@
 docker run --rm -it -v $(pwd):/usr/app/spfx -p 4321:4321 -p 35729:35729 m365pnp/spfx:1.13.1
 ```
 
-```PowerShell
-docker run --rm -it -v ${pwd}:/usr/app/spfx -p 4321:4321 -p 35729:35729 m365pnp/spfx:1.13.1
-```
-
 Run inside container:
 
 ```bash
